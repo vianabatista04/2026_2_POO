@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/2026_2_POO/Lista_01/Ex01CS/Ex01CS.csproj": {}
+    "/workspaces/2026_2_POO/Testes_Iniciais/Ex01CS/Ex01CS.csproj": {}
   },
   "projects": {
-    "/workspaces/2026_2_POO/Lista_01/Ex01CS/Ex01CS.csproj": {
+    "/workspaces/2026_2_POO/Testes_Iniciais/Ex01CS/Ex01CS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/2026_2_POO/Lista_01/Ex01CS/Ex01CS.csproj",
+        "projectUniqueName": "/workspaces/2026_2_POO/Testes_Iniciais/Ex01CS/Ex01CS.csproj",
         "projectName": "Ex01CS",
-        "projectPath": "/workspaces/2026_2_POO/Lista_01/Ex01CS/Ex01CS.csproj",
+        "projectPath": "/workspaces/2026_2_POO/Testes_Iniciais/Ex01CS/Ex01CS.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/2026_2_POO/Lista_01/Ex01CS/obj/",
+        "outputPath": "/workspaces/2026_2_POO/Testes_Iniciais/Ex01CS/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"

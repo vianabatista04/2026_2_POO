@@ -1,0 +1,23 @@
+@startuml Equacao
+class Equacao {
+    - na : double
+    - nb : double
+    - nc : double
+    + Equacao(a:double, b:double, c:double)
+    + SetA(a:double):void
+    + SetB(b:double):void
+    + SetC(c:double):void
+    + GetA():double
+    + GetB():double
+    + GetC():double
+    + Delta():double
+    + TemRaizesReais(): bool
+    + Raiz1():double
+    + Raiz2():double
+    + ToString():string
+}
+@enduml
+
+'Para visualizar pelo VsCode: 
+'Instala a extensão PlantUML
+'Usa os comandos Alt + D ou Option + D para Preview

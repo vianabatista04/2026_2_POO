@@ -1,0 +1,14 @@
+@startuml Conversor 
+class Conversor{
+    -num:int
+    +Conversor(num:int)
+    +SetNum(num:int):void
+    +GetNum():int
+    +Binario():String
+    +ToString():string
+}
+@enduml
+
+'Para visualizar pelo VsCode: 
+'Instala a extensão PlantUML
+'Usa os comandos Alt + D ou Option + D para Preview

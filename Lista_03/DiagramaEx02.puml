@@ -1,0 +1,17 @@
+@startuml Frete 
+class Frete{
+    -distancia:double
+    -peso:double
+    +Frete(d:double, p:double)
+    +SetDistancia(b:double):void
+    +SetPeso(h:double):void
+    +GetDistancia():double
+    +GetPeso():double
+    +CalcFrete():double
+    +ToString():string
+}
+@enduml
+
+'Para visualizar pelo VsCode: 
+'Instala a extensão PlantUML
+'Usa os comandos Alt + D ou Option + D para Preview 

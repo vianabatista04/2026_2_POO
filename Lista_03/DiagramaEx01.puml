@@ -1,0 +1,18 @@
+@startuml Retangulo 
+class Retangulo{
+    -b:double
+    -h:double
+    +Retangulo(b:double, h:double)
+    +SetBase(b:double):void
+    +SetAltura(h:double):void
+    +GetBase():double
+    +GetAltura():double
+    +CalcArea():double
+    +CalcDiagonal():double
+    +ToString():string
+}
+@enduml
+
+'Para visualizar pelo VsCode: 
+'Instala a extensão PlantUML
+'Usa os comandos Alt + D ou Option + D para Preview

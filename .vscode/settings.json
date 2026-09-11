@@ -1,0 +1,6 @@
+{
+    "git.suggestSmartCommit": false,
+    "workbench.colorTheme": "Quiet Light",
+    "plantuml.render": "PlantUMLServer",
+    "plantuml.server": "https://www.plantuml.com/plantuml",
+}

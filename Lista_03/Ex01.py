@@ -29,7 +29,7 @@ class Retangulo:    #entidade
 class UI: #interface com usuário
     @staticmethod
     def main():
-        x=Retangulo(5.0, 8.0)
+        x=Retangulo()   #números separados por ,
         print("--- Dados do Retângulo ---")
         print(f"Diagonal: {x.diagonal():.2f}")
         print(f"Área: {x.calcular_area():.2f}")

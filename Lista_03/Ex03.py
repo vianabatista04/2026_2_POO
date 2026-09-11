@@ -28,7 +28,7 @@ class Conversor:    #entidade ->Cuida das regras e dados
 class UI: #interface com usuário ->interação e exibição
     @staticmethod
     def main():
-        x=Conversor(10)
+        x=Conversor()
         print("--- Dados do Conversor Binário ---")
         print(f"Binário: {x.Binario()}")
         print(x.__str__())

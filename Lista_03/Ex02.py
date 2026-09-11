@@ -26,7 +26,7 @@ class Frete:    #entidade
 class UI: #interface com usuário
     @staticmethod
     def main():
-        x=Frete(5.0, 8.0)
+        x=Frete()   #números separados por ,
         print("--- Dados do Frete ---")
         print(f"Frete: {x.CalcularFrete():.2f}")
         print(x.__str__())

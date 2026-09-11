@@ -46,7 +46,7 @@ class Equacao:    #entidade ->Cuida das regras e dados
 class UI: #interface com usuário ->interação e exibição
     @staticmethod
     def main():
-        x=Equacao(4, -4, -3)
+        x=Equacao() #números separados por ,
         print("--- Dados da Equação ---")
         print(x)
         print(f"Delta: {x.Delta()}")

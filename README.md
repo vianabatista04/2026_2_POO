@@ -39,7 +39,7 @@ As atividades e conteúdos programáticos estão organizados por unidades temát
 | :---: | :---: | :--- | :---: |
 | 🟩 **Unidade 01** | Concluída | Elementos Básicos de uma Linguagem Orientada a Objetos | `Python` |
 | 🟩 **Unidade 02** | Concluída | Elementos Básicos do Paradigma Orientado a Objetos (Abstração e Encapsulamento) | `Python` |
-| 🟨 **Unidade 03** | Em Andamento | Conceitos Introdutórios (Construtores, UML, Atributos Estáticos e Módulos) | `Python` / `Java` |
+| 🟩 **Unidade 03** | Em Andamento | Conceitos Introdutórios (Construtores, UML, Atributos Estáticos e Módulos) | `Python` / `Java` |
 | ⬜ **Unidade 04** | Pendente | Conceitos Fundamentais (Herança, Polimorfismo, ABCs/Interfaces e Binding) | `Python` / `Java` |
 | ⬜ **Unidade 05** | Pendente | Aplicações de Coleções de Objetos (`list`, `set`, `dict` e módulo `typing`) | `Python` |
 | ⬜ **Unidade 06** | Pendente | Tratamento de Exceções (`try/except/finally` e Exceções Personalizadas) | `Python` / `Java` |

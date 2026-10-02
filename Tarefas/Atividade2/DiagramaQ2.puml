@@ -1,0 +1,61 @@
+@startuml Playlist
+classDiagram
+    class UI {
+        +playlists : list~Playlist~
+        +musicas : list~Musica~
+        +itens : list~PlayListItem~
+        +main() void
+        +menu() int
+        +inserir_playlist() void
+        +listar_playlists() void
+        +atualizar_playlist() void
+        +excluir_playlist() void
+        +inserir_musica() void
+        +listar_musicas() void
+        +atualizar_musica() void
+        +excluir_musica() void
+        +inserir_item() void
+        +listar_itens() void
+        +atualizar_item() void
+        +excluir_item() void
+    }
+
+    class Playlist {
+        -id : int
+        -nome : str
+        -descricao : str
+        +tempo_total(lista_itens, lista_musicas) timedelta
+    }
+
+    class Musica {
+        -id : int
+        -titulo : str
+        -artista : str
+        -album : str
+        -duracao : timedelta
+    }
+
+    class PlayListItem {
+        -id : int
+        -id_playlist : int
+        -id_musica : int
+        -data_inclusao : datetime
+        -sequencia : int
+    }
+
+    UI "1" --> "*" Playlist : gerencia
+    UI "1" --> "*" Musica : gerencia
+    UI "1" --> "*" PlayListItem : gerencia
+
+
+
+
+
+
+
+
+
+
+'Para visualizar pelo VsCode: 
+'Instala a extensão PlantUML Previewer
+'Usa os comandos CTRL + P (Windows/Linux) ou CMD + P (Mac) para Preview
